@@ -4,15 +4,16 @@ html {
     font-size:62.5%
 } 
 
-    * {
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: #59C9A5;
+    color: #32a719;
     font-size: 1.6rem;
 }
 
@@ -20,22 +21,26 @@ body {
 
 h1, h2 {
     font-family: Oswald, sans-serif;
-    color: #59C9A5;
+    color: #32a719;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
     text-decoration: none;
 }
 
-header {
-    padding: 0 20px;
-    background-color: #23395b;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
+h1 i {
+    color:#000000;
 }
 
-/* menu */
+/* menu navigation */
 
 #menu {
     list-style: none;
@@ -56,11 +61,13 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #59C9A5;
+    color: #000000;
+    border-bottom: 2px solid #000000;
 }
 
 .active {
-    border-bottom: 1px solid #59C9A5;
+    color: #000000;
+    border-bottom: 2px solid #000000;
 }
 
 
