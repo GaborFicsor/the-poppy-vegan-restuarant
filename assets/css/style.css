@@ -1,11 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-* {
+html {
+    font-size:62.5%
+} 
+
+    * {
     margin: 0;
     padding: 0;
     border: none;
 }
 body {
-    font-family: Alegraya; sans-serif;
-    font-weight: 900;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: #59C9A5;
+    font-size: 1.6rem;
 }
+
+/* heading */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    color: #59C9A5;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #23395b;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu */
+
+#menu {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+#menu a {
+    color: inherit;
+}
+
+#menu li {
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #59C9A5;
+}
+
+.active {
+    border-bottom: 1px solid #59C9A5;
+}
+
+
+
