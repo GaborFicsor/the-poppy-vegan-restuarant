@@ -126,6 +126,27 @@ h1 i {
 /* about us */
 
 .flex-container {
+    background-color: black;
     display: flex;
     justify-content: space-around;
+    padding: 50px 100px 100px;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    color: #32a719;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.about {
+    font-family: Lato, sans-serif;
+    color:grey;
+    width: 400px;
+    border: 30px;
+    padding: 10px;
+    margin: 20px;
+    
+
 }
