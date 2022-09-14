@@ -73,6 +73,10 @@ h1 i {
 
 #container {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 #hero-image {
@@ -83,22 +87,38 @@ h1 i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
 /* frosted glass effect on hero image */
 
 #card {
-    border-radius: 8px;
+    border-radius: 20px;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba (0, 0, 0, 0.25);
     border: 1px solid gba(255, 255, 255, 0.3);
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position: absolute;
-    top: 9px;
-    left: 16px;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    left: 50px;
+}
+
+#card a {
+    font-family: Oswald, sans-serif;
+    color: #32a719;
+    text-decoration: none;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#card a:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
 }
