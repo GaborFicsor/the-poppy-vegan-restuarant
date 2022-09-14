@@ -147,6 +147,41 @@ h1 i {
     border: 30px;
     padding: 10px;
     margin: 20px;
-    
-
 }
+
+/* selection section */
+
+.selection-container {
+    display: flex;
+    background: url('../images/menu_image.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-around;
+}
+
+.selection-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu-card {
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba (0, 0, 0, 0.25);
+    border: 1px solid gba(255, 255, 255, 0.3);
+    width: 350px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    left: 30px;
+    
+}
+    
