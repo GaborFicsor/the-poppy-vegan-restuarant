@@ -227,3 +227,44 @@ h1 i {
     text-align: center;
     padding-bottom: 20px;
 }
+
+/* image-section-second */
+
+.image-container-second {
+        display: flex;
+        background: url('../images/order_image_background.jpg');
+        justify-content: space-around;
+        padding: 50px 100px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 20rem;
+}
+
+/* order and delivery */
+
+.order-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px 100px;
+    
+}
+
+.order h2 {
+    text-transform: uppercase;
+    color: #32a719;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.order {
+    font-family: Lato, sans-serif;
+    color:grey;
+    width: 400px;
+    border: 30px;
+    padding: 10px;
+    margin: 20px;
+}
