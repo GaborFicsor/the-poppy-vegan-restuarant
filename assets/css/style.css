@@ -17,6 +17,11 @@ body {
     font-size: 1.6rem;
 }
 
+.black-green-center {
+    text-align: center;
+    background-color:#000000;
+}
+
 /* heading */
 
 h1, h2 {
@@ -131,6 +136,7 @@ h1 i {
     display: flex;
     justify-content: space-around;
     padding: 50px 100px 100px;
+    
 }
 
 .about h2 {
@@ -189,37 +195,35 @@ h1 i {
 
 /* selection section */
 
-/* .selection-container {
+.selection-container {
     display: flex;
-    background: url('../images/menu_image.jpg');
-    height: 400px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    justify-content: space-around; */
+    background-color: #000000;
+    height: auto;
+    justify-content: space-around;
+    padding: 50px 100px 100px;
 }
 
-.selection-container > div {
-    background-color: #f1f1f1;
+.selection-div {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    border-left: 4px dotted #32a719;
 }
 
-.menu-card {
-    border-radius: 20px;
-    backdrop-filter: blur(20px);
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 1px 12px rgba (0, 0, 0, 0.25);
-    border: 1px solid gba(255, 255, 255, 0.3);
-    width: 350px;
-    height: 750px;
-    justify-content: center;
-    align-items: center;
-    bottom: 30px;
-    left: 30px;
-    
+.selection-div > ul {
+    list-style: none;
 }
-    
+
+.selection-div > ul > li {
+    font-family: Lato, sans-serif;
+    color:grey;
+    padding: 10px;
+    margin: 20px;
+}
+
+.selection-div > h3 {
+    text-transform: uppercase;
+    color: #32a719;
+    text-align: center;
+    padding-bottom: 20px;
+}
