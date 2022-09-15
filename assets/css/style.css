@@ -161,8 +161,8 @@ h1 i {
 .image-container { 
     display: flex;
     background: url('../images/menu_image.jpg');
-    justify-content: space-around;
-    padding: 50px 100px 100px;
+    justify-content: center;
+    /* padding: 50px 100px 100px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,18 +170,19 @@ h1 i {
   }
 
 .image-card {
-    border-radius: 20px;
-    backdrop-filter: blur(20px);
+    /* border-radius: 20px; */
+    /* backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba (0, 0, 0, 0.25);
-    border: 1px solid gba(255, 255, 255, 0.3);
+    border: 1px solid gba(255, 255, 255, 0.3);  */
     width: 400px;
     border: 30px;
-    padding: 10px;
-    margin: 20px;
+    /* padding: 10px;
+    margin: 20px; */
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 15rem;
     color: black;
+    text-shadow: 10px 10px #fff;
     text-align: center;
     
 }
