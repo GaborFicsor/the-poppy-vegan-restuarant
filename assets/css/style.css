@@ -286,7 +286,14 @@ header a {
 
 /* for large to medium size screens (1200px wide and down) */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 420px) {
+    #logo {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        margin: 0;
+    }
 
 }
 
