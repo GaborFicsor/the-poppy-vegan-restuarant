@@ -77,7 +77,7 @@ header a {
     height: 40rem;
     width: 100%;
     background: url('../images/hero_image.jpg') center no-repeat fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 /* about us */
@@ -118,12 +118,12 @@ header a {
 
 #background-first {
     background: url('../images/menu_image.jpg') center no-repeat fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 #background-second {
     background: url('../images/order_image_background.jpg')center no-repeat fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 .image-text {
@@ -339,6 +339,18 @@ header a {
     .social-links i {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    #hero-image-container {
+        background-size: 100%;
+    }
+
+    #background-first {
+        background-size: 100%;
+    }
+
+    #background-second {
+        background-size: 100%;
     }
 }
 
