@@ -87,7 +87,6 @@ header a {
     display: flex;
     justify-content: space-around;
     padding: 5rem 10rem 10rem;
-    
 }
 
 .about {
@@ -271,7 +270,6 @@ header a {
 .social-links{
     text-align: center;
     background-color: #000000;
-
 }
 
 .social-links li{
@@ -286,7 +284,9 @@ header a {
 
 /* media queries */
 
-@media (min-width: 320px) {
+/* for screen sizes 320px an above */
+
+@media screen and (min-width: 320px) {
     
     #about-container {
         flex-wrap: wrap;
@@ -349,7 +349,9 @@ header a {
     }
 }
 
-@media all and (min-width: 420px) {
+/* for screen sizes 420px an above */
+
+@media screen and (min-width: 420px) {
 
     textarea {
         width: 30rem;
@@ -357,7 +359,9 @@ header a {
     }
 }
 
-@media all and (min-width: 576px) {
+/* for screen sizes 576px an above */
+
+@media screen and (min-width: 576px) {
 
     .selection-div {
         font-size: 3rem;
@@ -377,7 +381,9 @@ header a {
     }
 }
 
-@media all and (min-width: 768px) {
+/* for screen sizes 768px an above */
+
+@media screen and (min-width: 768px) {
 
     header {
         height: 9rem;
@@ -406,10 +412,11 @@ header a {
         padding-left: 4rem;
         padding-right: 4rem;
     }
-
 }
 
-@media all and (min-width: 890px) {
+/* for screen sizes 890px an above */
+
+@media screen and (min-width: 890px) {
 
     #about-container {
         padding: 5rem 5rem 5rem;
@@ -421,12 +428,13 @@ header a {
     }
 }
 
-@media all and (min-width: 992px) {
+/* for screen sizes 992px an above */
+
+@media screen and (min-width: 992px) {
     
     #about-container {
         padding: 10rem 10rem 10rem;
     }
-
 
     #selection-container {
         flex-wrap: no-wrap;
@@ -439,7 +447,7 @@ header a {
 
 }
 
-@media all and (min-width: 1080px) {
+@media screen and (min-width: 1080px) {
 
     .selection-div {
         width: 25rem;
@@ -456,7 +464,9 @@ header a {
     }
 }
 
-@media all and (min-width: 1500px) {
+/* for screen sizes 1500px an above, preventing site distortion on wide screen monitors */
+
+@media screen and (min-width: 1500px) {
     
     .image-text {
         font-size: 17rem;
