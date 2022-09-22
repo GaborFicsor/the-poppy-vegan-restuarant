@@ -4,7 +4,7 @@ The Poppy Vegan Restaurant website is a page for people looking for a place to e
 
  Visitors of this website will be able to find a short introduction as to what and how things are done in this restaurant. Inclined to be sustainable, the page draws attention to the fact, that the owners opt to run the restaurant as eco-friendly as they possibly can. There are further information about the menu the restaurant offers, which consist of brunch, meals and coffees with their pricing. Scrolling down the page will get the users to a third section that tells them their options for ordering from the restaurant. Two hyperlinks presented as images will take them to their corresponding websites while opening a new browser tab. The fourth section shows a form that serves as an option for people to leave feedback regarding their experience. A name, an email address and a textarea are provided and they all require their correct input type from the user to be able to submit. The last section is for information about the operating hours of the restaruant, the options for getting in touch and the address (a real address, that belongs to a real restaurant)
 
-![Screenshot](docs/am_i_responsive_screenshot.png)
+![Screenshot of the Am I responsive testing of the page](docs/am_i_responsive_screenshot.png)
 
 ## Features
 
@@ -13,28 +13,28 @@ The Poppy Vegan Restaurant website is a page for people looking for a place to e
  * Each navigation link will take the user to their corresponding sections of the page and gives a clear instruction as to where the user will be taken once clicked
  * The navigation bar is colored white in order to be able to distuingish it from the other parts of the page when scrolling down
 
-![Screenshot](docs/navbar_screenshot.png)
+![Screenshot of the navbar](docs/navbar_screenshot.png)
 
 ## Short introduction of the page
  * Two articles are located beneath the landing image that tell the user what the restaurant is trying to achieve and how they make that possible
  * These two articles ensure the user that the restaurant only uses vegan ingredients, so they do not have to worry
 
-![Screenshot](docs/about_us_screenshot.png)
+![Screenshotof the about us section](docs/about_us_screenshot.png)
 
 ### Image sections
 
 * Two image sections can be found inbetween 3 sections troughout the page that serve as decoration with some text written over the background that is easy to read
 * Their purpose is to give the user an idea of the quality of the products that the restaurant offers
 
-![Screenshot](docs/img_sec_screenshot1.png)
-![Screenshot](docs/img_sec_screenshot2.png)
+![Screenshot of the first image section](docs/img_sec_screenshot1.png)
+![Screenshot of the second image section](docs/img_sec_screenshot2.png)
 
 ### Menu
 
 * The restaurant menu can be found right after the first image section
 * This section serves as a selection of meals and coffees that are available with their pricing shown
 
-![Screenshot](docs/menu_screenshot.png)
+![Screenshot of the menu section](docs/menu_screenshot.png)
 
 The next section that follows is the second image section mentioned above. Ater the second image section comes the order and delivery section.
 
@@ -43,7 +43,7 @@ The next section that follows is the second image section mentioned above. Ater 
 * This section ensures the user that they are able to order from the restaurant, and to do that there are two options that they can choose from
 * A small caption lets the user know that the owners are working with delivery companies that are not harmful to their environment in the way of they are operating
 
-![Screenshot](docs/order_screenshot.png)
+![Screenshot of the order section](docs/order_screenshot.png)
 
 ### The feedback form
 
@@ -51,7 +51,7 @@ The next section that follows is the second image section mentioned above. Ater 
 
 * The form collects the guest's or user's full name, their email address, and a note left by them that describes how they feel about the restaurant. All fields are required to submit
 
-![Screenshot](docs/feedback_screenshot.png)
+![Screenshot of the feedback section](docs/feedback_screenshot.png)
 
 ### Contact section
 
@@ -61,7 +61,7 @@ The next section that follows is the second image section mentioned above. Ater 
 
 * Lastly there is a footer located at the bottom of the page that holds hyperlinks to different social media platforms in relation with the restaurant. All the hyperlinks open in a new browser tab.
 
-![Screenshot](docs/contact_screenshot.png)
+![Screenshot of the contact section](docs/contact_screenshot.png)
 
 ## Testing
 
@@ -79,7 +79,7 @@ The next section that follows is the second image section mentioned above. Ater 
 
 * After learning that it belongs to a previous version, I tried to embed the right script, but the icon displayed as an uknown character (Image provided below) on the page, hence I chose to include Twitter instead.
 
- ![Screenshot](docs/bug_screenshot.png)
+ ![Screenshot of the bug](docs/bug_screenshot.png)
 
  ## Validator testing
 
@@ -93,7 +93,7 @@ The next section that follows is the second image section mentioned above. Ater 
 
  * The lighthouse extension returned a satisfactory score, however I have had to reduce the size of the images I have used, to make the website load faster.
 
-  ![Screenshot](docs/lighthouse_screenshot.png)
+  ![Screenshot of the lighthouse scores](docs/lighthouse_screenshot.png)
 
 ## Deployment
 
@@ -104,7 +104,7 @@ The next section that follows is the second image section mentioned above. Ater 
   3. Under the branch drop-down menu, select main, then press save
   4. Once saved, the page provided the link to the completed and live website.
 
-  The live link can be found here: [The Poppy Vegan Restauran](https://gaborficsor.github.io/the-poppy-vegan-restuarant/)
+  The live link can be found here: [The Poppy Vegan Restaurant](https://gaborficsor.github.io/the-poppy-vegan-restuarant/)
 
 ## Credits
 
