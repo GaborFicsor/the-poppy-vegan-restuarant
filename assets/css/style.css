@@ -323,6 +323,7 @@ header a {
     #selection-container {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+        justify-content: flex-start;
     }
 
     .order-container {
