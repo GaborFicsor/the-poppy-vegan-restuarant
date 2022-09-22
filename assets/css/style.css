@@ -117,12 +117,12 @@ header a {
 }
 
 #background-first {
-    background: url('../images/menu_image.jpg') center no-repeat fixed;
+    background: url('../images/menu_image.jpg') center no-repeat;
     background-size: cover;
 }
 
 #background-second {
-    background: url('../images/order_image_background.jpg')center no-repeat fixed;
+    background: url('../images/order_image_background.jpg')center no-repeat;
     background-size: cover;
 }
 
@@ -191,7 +191,7 @@ header a {
 
 #feedback-form {
     display: flex;
-    background-image: url(../images/form_background.jpg);
+    background: url(../images/form_background.jpg) center no-repeat;
     background-size: cover;
     height: 50rem;
     justify-content: center;
@@ -341,17 +341,6 @@ header a {
         padding-right: 2rem;
     }
 
-    #hero-image-container {
-        background-size: 800px 400px;
-    }
-
-    #background-first {
-        background-size: 800px 400px;
-    }
-
-    #background-second {
-        background-size: 800px 400px;
-    }
 }
 
 /* for screen sizes 320px an above */
