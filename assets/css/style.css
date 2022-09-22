@@ -113,6 +113,8 @@ header a {
     justify-content: space-around;
     padding: 5rem 10rem 10rem;
     height: 20rem;
+    flex-wrap: wrap;
+    align-items: center; 
 }
 
 #background-first {
@@ -128,11 +130,11 @@ header a {
 .image-text {
     width: 40rem;
     border: 3rem;
-    font-size: 15rem;
     color: #000000;
     text-transform: uppercase;
-    text-shadow: 1rem 1rem #FFFFFF;
     text-align: center;
+    font-size: 6rem;
+    text-shadow: 0.4rem 0.4rem #FFFFFF
 }
 
 /* selection section */
@@ -144,6 +146,7 @@ header a {
     height: auto;
     justify-content: space-around;
     padding: 5rem 10rem 10rem;
+    flex-wrap: wrap;
 }
 
 .selection-div {
@@ -151,7 +154,6 @@ header a {
     padding: 2rem;
     font-size: 1.5rem;
     border-left: 0.4rem dotted #32a719;
-    width: 100%;
 }
 
 .selection-div > ul {
@@ -284,9 +286,27 @@ header a {
 
 /* media queries */
 
-/* for screen sizes (420px wide and down) */
+@media (min-width: 320px) {
+    
+    #about-container {
+        flex-wrap: wrap;
+    }
+    
+    .order-container {
+        flex-wrap: wrap;
+    }
 
-@media screen and (max-width: 420px) {
+    .order-image {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    #contact-div {
+        flex-wrap: wrap;
+    }
+    #nav {
+        padding-top: 1rem;
+    }
     #logo {
         font-size: 2.5rem;
     }
@@ -296,18 +316,39 @@ header a {
     }
 
     #about-container {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     #selection-container {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .order-container {
-        padding: 2.5rem 5rem 2.5rem
+        padding: 2.5rem 1rem 2.5rem
     }
+
+    .form-area {
+        height: 49rem;
+    }
+
+    #contact p {
+        width: 20rem;
+    }
+
+    textarea {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .social-links i {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media all and (min-width: 420px) {
 
     textarea {
         width: 30rem;
@@ -315,36 +356,120 @@ header a {
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 576px) {
 
-    #about-container {
-        flex-wrap: wrap;
-    }
-
-    .image-container {
-        flex-wrap: wrap;
-    }
-
-    .image-text {
-        font-size: 6rem;
-        text-shadow: 0.5rem 0.5rem #FFFFFF;
-    }
-
-    #selection-container {
-        flex-wrap: wrap;
-    }
-
-    .order-container {
-        flex-wrap: wrap;
+    .selection-div {
+        font-size: 3rem;
     }
 
     .order-image {
-        width: 15rem;
-        height: 15rem;
+        width: 20rem;
+        height: 20rem;
     }
 
-    #contact-div {
-        flex-wrap: wrap;
+    .form-area {
+        height: 41rem;
     }
 
+    textarea {
+        width: 40rem;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+    header {
+        height: 9rem;
+    }
+
+    #logo {
+        font-size: 2em;
+    }
+
+    #nav {
+        font-size: 2rem;
+    }
+
+    .selection-div {
+        font-size: 3rem;
+    }
+
+    .image-container {
+        flex-wrap: nowrap;
+    }
+    .image-text {
+        font-size: 9rem;
+    }
+
+    .social-links i {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+}
+
+@media all and (min-width: 890px) {
+
+    #about-container {
+        padding: 5rem 5rem 5rem;
+        flex-wrap: nowrap;
+    }
+
+    .image-text:{
+        font-size: 11rem;
+    }
+}
+
+@media all and (min-width: 992px) {
     
+    #about-container {
+        padding: 10rem 10rem 10rem;
+    }
+
+
+    #selection-container {
+        flex-wrap: no-wrap;
+        justify-content: space-around;
+    }
+   
+    .selection-div {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media all and (min-width: 1080px) {
+
+    .selection-div {
+        width: 25rem;
+    }
+
+    .image-text {
+        font-size: 13rem;
+        text-shadow: 1rem 1rem #FFFFFF;
+    }
+
+    .social-links i {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+@media all and (min-width: 1500px) {
+    
+    .image-text {
+        font-size: 17rem;
+        text-shadow: 1rem 1rem #FFFFFF;
+    }
+
+    header { 
+        max-width: 1400px;
+    }
+    
+    body {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: #808080;
+        box-shadow: 5px y-offset;
+    }
+}
