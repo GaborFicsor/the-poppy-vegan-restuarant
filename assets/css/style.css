@@ -488,7 +488,7 @@ header a {
         flex-wrap: nowrap;
     }
 
-    .image-text:{
+    .image-text {
         font-size: 11rem;
     }
 }
@@ -502,7 +502,6 @@ header a {
     }
 
     #selection-container {
-        flex-wrap: no-wrap;
         justify-content: space-around;
     }
    
@@ -546,6 +545,5 @@ header a {
         max-width: 1400px;
         margin: 0 auto;
         background-color: #808080;
-        box-shadow: 5px y-offset;
     }
 }
