@@ -76,7 +76,7 @@ header a {
 #hero-image-container {
     height: 40rem;
     width: 100%;
-    background: url('../images/hero_image.jpg') center no-repeat fixed;
+    background: url('../images/hero_image.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -342,15 +342,15 @@ header a {
     }
 
     #hero-image-container {
-        background-size: 100%;
+        background-size: 800px 400px;
     }
 
     #background-first {
-        background-size: 100%;
+        background-size: 800px 400px;
     }
 
     #background-second {
-        background-size: 100%;
+        background-size: 800px 400px;
     }
 }
 
